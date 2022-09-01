@@ -1,0 +1,81 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.d-title:hover {
+  color: #fbff2f;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.d-year:hover {
+  opacity: 1 !important;
+}
+
+#carousel-1 {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-fluid {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: saturate(90%) brightness(95%);
+  transition: 0.3s;
+}
+
+.col-sm-6.col-md-4.col-lg-3.item {
+  padding: 3px;
+}
+
+.img-fluid:hover {
+  filter: saturate(100%) brightness(100%);
+}
+
+@media screen and (max-width: 600px) {
+  .d-par {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #b-div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-photo {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .d-but {
+    margin-top: -48px;
+  }
+}
+
+.l-trig {
+  cursor: pointer;
+}
+
+.form-input {
+  width: 100%;
+  padding: 4px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  font-size: 22px;
+}
+
+::placeholder {
+  color: rgba(0,0,0,0.6);
+}
+
